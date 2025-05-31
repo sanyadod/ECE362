@@ -1,4 +1,4 @@
-# ECE362_Project_BallBreaker
+# ECE362 Project Brick Breaker
 Project Overview: This project implements a classic Brick Breaker (or “Breakout”) game on an STM32F091 microcontroller. A TFT LCD is used to display the game, and an APDS-9960 motion sensor controls the paddle via gesture recognition. When the game ends, high scores are stored in an external EEPROM over I2C, ensuring that data is retained even when the system is powered off. Sound effects (e.g., collisions, brick breaks) are generated using PWM and/or the DAC.
 
 Game Objective:
